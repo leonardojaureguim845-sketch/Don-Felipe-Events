@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11100e">
+  <meta name="description" content="Don Felipe Events: servicio profesional de garzones y atención para eventos en toda Bolivia.">
+  <title>Don Felipe Events | Servicio profesional para eventos</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" data-view="inicio" aria-label="Don Felipe Events, inicio">
+        <span class="brand-mark">DF</span>
+        <span><strong>DON FELIPE</strong><small>EVENTS · SERVICIO & ELEGANCIA</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-link active" data-view="inicio">Inicio</button>
+        <button class="nav-link" data-view="servicios">Servicios</button>
+        <button class="nav-link" data-view="bebidas">Bebidas</button>
+        <button class="nav-link" data-view="cotizar">Cotizar</button>
+        <button class="nav-link" data-view="contacto">Contacto</button>
+      </nav>
+      <div class="top-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">☼</button>
+        <a class="top-cta" href="https://wa.me/59171970146" target="_blank" rel="noopener">Reservar <span>↗</span></a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    </header>
+
+    <main id="appMain">
+      <section class="view active" id="inicio" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> SERVICIO PROFESIONAL EN TODA BOLIVIA</div>
+          <h1 id="heroTitle">El arte de servir.<br><em>La elegancia de tu evento.</em></h1>
+          <p class="hero-lead">Personal capacitado, atención impecable y cada detalle cuidado para que tú solo disfrutes el momento.</p>
+          <div class="hero-actions">
+            <button class="gold-btn" data-view="cotizar">Solicitar cotización <span>↗</span></button>
+            <button class="text-btn" data-view="servicios">Conocer servicios <span>→</span></button>
+          </div>
+          <div class="hero-proof">
+            <div><strong>01</strong><span>Atención<br>personalizada</span></div>
+            <i></i>
+            <div><strong>BO</strong><span>Cobertura<br>nacional</span></div>
+            <i></i>
+            <div><strong>100%</strong><span>Enfoque en<br>los detalles</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración decorativa de servicio para eventos">
+          <div class="art-glow"></div>
+          <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="gold-arch">
+            <div class="arch-inner">
+              <div class="tray"><span class="tray-line"></span><span class="glass glass-one"></span><span class="glass glass-two"></span><span class="napkin"></span></div>
+              <div class="spark s1">✦</div><div class="spark s2">✧</div><div class="spark s3">✦</div>
+              <div class="art-caption"><span>DON FELIPE</span><small>EVENT STAFF & HOSPITALITY</small></div>
+            </div>
+          </div>
+          <div class="floating-note"><span class="note-icon">✧</span><span><b>Tu evento,</b><small>nuestro compromiso</small></span></div>
+          <div class="art-number">DFE / 01</div>
+        </div>
+        <div class="hero-bottom"><span>EXPERIENCIAS QUE SE ATIENDEN CON DISTINCIÓN</span><span>DESLIZA NO: USA EL MENÚ PARA EXPLORAR <b>↓</b></span></div>
+      </section>
+
+      <section class="view" id="servicios" aria-labelledby="servicesTitle">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span></span> LO QUE HACEMOS</div><h2 id="servicesTitle">Servicio a la altura<br><em>de tu celebración.</em></h2></div>
+          <p>Adaptamos el equipo y la atención al estilo, tamaño y ritmo de cada ocasión.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card featured"><div class="service-icon">♧</div><span class="card-index">01 / PERSONAL</span><h3>Garzones profesionales</h3><p>Atención de mesas, recepción de invitados, servicio de alimentos y coordinación durante el evento.</p><button class="card-link" data-package="Garzones profesionales">Elegir servicio <b>↗</b></button></article>
+          <article class="service-card"><div class="service-icon">◇</div><span class="card-index">02 / BEBIDAS</span><h3>Servicio de bebidas</h3><p>Estaciones y atención de bebidas frías y calientes, según el menú que elijas.</p><button class="card-link" data-view="bebidas">Ver bebidas <b>↗</b></button></article>
+          <article class="service-card"><div class="service-icon">✧</div><span class="card-index">03 / EVENTOS</span><h3>Eventos especiales</h3><p>Apoyo para bodas, cumpleaños, reuniones empresariales, graduaciones y celebraciones.</p><button class="card-link" data-package="Atención para eventos especiales">Elegir servicio <b>↗</b></button></article>
+          <article class="service-card"><div class="service-icon">♜</div><span class="card-index">04 / COORDINACIÓN</span><h3>Apoyo en sala</h3><p>Organización del equipo, distribución de tareas y coordinación con el anfitrión.</p><button class="card-link" data-package="Apoyo y coordinación en sala">Elegir servicio <b>↗</b></button></article>
+        </div>
+        <div class="section-foot"><span>01 — SERVICIOS</span><span>EL EQUIPO SE DEFINE SEGÚN TU EVENTO</span></div>
+      </section>
+
+      <section class="view" id="bebidas" aria-labelledby="drinksTitle">
+        <div class="section-heading compact-heading">
+          <div><div class="eyebrow"><span></span> CATÁLOGO DE BEBIDAS</div><h2 id="drinksTitle">Un brindis por <em>cada ocasión.</em></h2></div>
+          <p>Elige las bebidas alcohólicas para tu evento. Marcas, cantidades y presentación se coordinan al cotizar.</p>
+        </div>
+        <div class="catalog-toolbar">
+          <div class="filter-tabs" role="group" aria-label="Filtrar bebidas">
+            <button class="filter active" data-filter="todas">Todas</button><button class="filter" data-filter="cerveza">Cervezas</button><button class="filter" data-filter="vino">Vinos y espumantes</button><button class="filter" data-filter="destilado">Destilados</button><button class="filter" data-filter="coctel">Cócteles</button>
+          </div>
+          <label class="search-box"><span>⌕</span><input id="drinkSearch" type="search" placeholder="Buscar bebida..." aria-label="Buscar bebida"></label>
+          <span class="selected-count" id="selectedCount">0 seleccionadas</span>
+        </div>
+        <div class="drink-grid" id="drinkGrid">
+          <article class="drink-card" data-category="cerveza" data-name="cerveza rubia lager"><div class="drink-visual drink-amber">🍺</div><div><span class="drink-tag">CERVEZA</span><h3>Cerveza rubia / Lager</h3><p>Estilo clásico, ligero y refrescante.</p></div><button class="add-drink" aria-label="Seleccionar Cerveza rubia Lager" data-drink="Cerveza rubia / Lager">+</button></article>
+          <article class="drink-card" data-category="cerveza" data-name="cerveza negra stout"><div class="drink-visual drink-coffee">🍺</div><div><span class="drink-tag">CERVEZA</span><h3>Cerveza negra / Stout</h3><p>Perfil tostado y de mayor cuerpo.</p></div><button class="add-drink" aria-label="Seleccionar Cerveza negra Stout" data-drink="Cerveza negra / Stout">+</button></article>
+          <article class="drink-card" data-category="cerveza" data-name="cerveza artesanal"><div class="drink-visual drink-honey">🍻</div><div><span class="drink-tag">CERVEZA</span><h3>Cerveza artesanal</h3><p>Variedades según disponibilidad.</p></div><button class="add-drink" aria-label="Seleccionar Cerveza artesanal" data-drink="Cerveza artesanal">+</button></article>
+          <article class="drink-card" data-category="vino" data-name="vino tinto"><div class="drink-visual drink-purple">🍷</div><div><span class="drink-tag">VINO</span><h3>Vino tinto</h3><p>Para cenas y celebraciones formales.</p></div><button class="add-drink" aria-label="Seleccionar Vino tinto" data-drink="Vino tinto">+</button></article>
+          <article class="drink-card" data-category="vino" data-name="vino blanco"><div class="drink-visual drink-cream">🍷</div><div><span class="drink-tag">VINO</span><h3>Vino blanco</h3><p>Una alternativa fresca y aromática.</p></div><button class="add-drink" aria-label="Seleccionar Vino blanco" data-drink="Vino blanco">+</button></article>
+          <article class="drink-card" data-category="vino" data-name="vino rosado"><div class="drink-visual drink-orange">🍷</div><div><span class="drink-tag">VINO</span><h3>Vino rosado</h3><p>Ligero y versátil para recepciones.</p></div><button class="add-drink" aria-label="Seleccionar Vino rosado" data-drink="Vino rosado">+</button></article>
+          <article class="drink-card" data-category="vino" data-name="espumante champagne"><div class="drink-visual drink-water">🥂</div><div><span class="drink-tag">ESPUMANTE</span><h3>Espumante / Champagne</h3><p>Para brindis y momentos especiales.</p></div><button class="add-drink" aria-label="Seleccionar Espumante Champagne" data-drink="Espumante / Champagne">+</button></article>
+          <article class="drink-card" data-category="destilado" data-name="singani"><div class="drink-visual drink-amber">🥃</div><div><span class="drink-tag">DESTILADO</span><h3>Singani</h3><p>Destilado boliviano de uva.</p></div><button class="add-drink" aria-label="Seleccionar Singani" data-drink="Singani">+</button></article>
+          <article class="drink-card" data-category="destilado" data-name="ron"><div class="drink-visual drink-honey">🥃</div><div><span class="drink-tag">DESTILADO</span><h3>Ron</h3><p>Opciones claras y añejas.</p></div><button class="add-drink" aria-label="Seleccionar Ron" data-drink="Ron">+</button></article>
+          <article class="drink-card" data-category="destilado" data-name="vodka"><div class="drink-visual drink-water">🍸</div><div><span class="drink-tag">DESTILADO</span><h3>Vodka</h3><p>Base para distintos cócteles.</p></div><button class="add-drink" aria-label="Seleccionar Vodka" data-drink="Vodka">+</button></article>
+          <article class="drink-card" data-category="destilado" data-name="whisky"><div class="drink-visual drink-coffee">🥃</div><div><span class="drink-tag">DESTILADO</span><h3>Whisky</h3><p>Alternativas según presupuesto.</p></div><button class="add-drink" aria-label="Seleccionar Whisky" data-drink="Whisky">+</button></article>
+          <article class="drink-card" data-category="destilado" data-name="gin"><div class="drink-visual drink-lime">🍸</div><div><span class="drink-tag">DESTILADO</span><h3>Gin</h3><p>Ideal para mezclas y coctelería.</p></div><button class="add-drink" aria-label="Seleccionar Gin" data-drink="Gin">+</button></article>
+          <article class="drink-card" data-category="coctel" data-name="mojito"><div class="drink-visual drink-lime">🍹</div><div><span class="drink-tag">CÓCTEL</span><h3>Mojito</h3><p>Ron, hierbabuena, lima y soda.</p></div><button class="add-drink" aria-label="Seleccionar Mojito" data-drink="Mojito">+</button></article>
+          <article class="drink-card" data-category="coctel" data-name="cuba libre"><div class="drink-visual drink-cola">🍹</div><div><span class="drink-tag">CÓCTEL</span><h3>Cuba libre</h3><p>Ron, cola y un toque cítrico.</p></div><button class="add-drink" aria-label="Seleccionar Cuba libre" data-drink="Cuba libre">+</button></article>
+          <article class="drink-card" data-category="coctel" data-name="gin tonic"><div class="drink-visual drink-water">🍸</div><div><span class="drink-tag">CÓCTEL</span><h3>Gin tonic</h3><p>Gin, tónica y cítricos.</p></div><button class="add-drink" aria-label="Seleccionar Gin tonic" data-drink="Gin tonic">+</button></article>
+          <article class="drink-card" data-category="coctel" data-name="piña colada"><div class="drink-visual drink-cream">🍹</div><div><span class="drink-tag">CÓCTEL</span><h3>Piña colada</h3><p>Ron, piña y crema de coco.</p></div><button class="add-drink" aria-label="Seleccionar Piña colada" data-drink="Piña colada">+</button></article>
+        </div>
+        <p class="alcohol-note">Servicio sujeto a disponibilidad, normativa local y consumo responsable. Solo para mayores de edad.</p>\n        <div class="section-foot"><span>02 — BEBIDAS</span><button class="gold-outline" data-view="cotizar">Cotizar selección <b>↗</b></button></div>
+      </section>
+
+      <section class="view" id="cotizar" aria-labelledby="quoteTitle">
+        <div class="quote-layout">
+          <div class="quote-intro"><div class="eyebrow"><span></span> EMPECEMOS A PLANIFICAR</div><h2 id="quoteTitle">Cuéntanos sobre<br><em>tu evento.</em></h2><p>Completa los datos básicos y prepararemos un mensaje para coordinar tu cotización por WhatsApp.</p><div class="quote-aside"><span>✦</span><div><b>Atención personalizada</b><small>La propuesta final se confirma según fecha, ubicación y requerimientos.</small></div></div></div>
+          <form id="quoteForm" class="quote-form">
+            <div class="form-top"><span>FORMULARIO DE COTIZACIÓN</span><span>DFE — 02</span></div>
+            <div class="form-grid">
+              <label>Nombre de contacto<input name="nombre" required placeholder="Tu nombre"></label>
+              <label>Tipo de evento<select name="evento" required><option value="">Seleccionar</option><option>Boda</option><option>Cumpleaños</option><option>Evento empresarial</option><option>Graduación</option><option>Reunión familiar</option><option>Otro</option></select></label>
+              <label>Ciudad / departamento<input name="ciudad" required placeholder="Ej. La Paz, Bolivia"></label>
+              <label>Fecha del evento<input name="fecha" type="date"></label>
+              <label>Número de invitados<input name="invitados" type="number" min="1" placeholder="Ej. 80"></label>
+              <label>Horas de servicio<input name="horas" type="number" min="1" max="24" placeholder="Ej. 5"></label>
+              <label>Garzones requeridos<input name="garzones" type="number" min="1" placeholder="Por definir"></label>
+              <label>Servicio de interés<select name="servicio"><option>Garzones profesionales</option><option>Servicio de bebidas</option><option>Atención integral de evento</option><option>Apoyo y coordinación en sala</option><option>Por asesorar</option></select></label>
+            </div>
+            <label class="notes-label">Detalles adicionales<textarea name="detalles" rows="2" placeholder="Cuéntanos qué necesitas..."></textarea></label>
+            <div class="quote-summary"><span id="quoteDrinks">Bebidas: ninguna seleccionada</span><button type="button" class="clear-selection" id="clearDrinks">Limpiar selección</button></div>
+            <button class="gold-btn submit-btn" type="submit">Enviar solicitud por WhatsApp <span>↗</span></button>
+            <small class="privacy-note">No se realiza ningún pago desde este formulario. La cotización se coordina directamente.</small>
+          </form>
+        </div>
+        <div class="section-foot"><span>03 — COTIZACIÓN</span><span>RESPUESTA Y CONFIRMACIÓN DIRECTA</span></div>
+      </section>
+
+      <section class="view" id="contacto" aria-labelledby="contactTitle">
+        <div class="contact-layout">
+          <div><div class="eyebrow"><span></span> HABLEMOS DE TU PRÓXIMO EVENTO</div><h2 id="contactTitle">Estamos listos<br><em>para atenderte.</em></h2><p class="contact-lead">Coordinemos los detalles para ofrecerte un servicio acorde a tu celebración.</p>
+            <div class="contact-actions"><a class="gold-btn" href="https://wa.me/59171970146" target="_blank" rel="noopener">Escribir por WhatsApp <span>↗</span></a><a class="outline-btn" href="tel:+59171970146">Llamar ahora <span>↗</span></a></div>
+          </div>
+          <div class="contact-panel">
+            <div class="contact-panel-head"><span>CONTACTO DIRECTO</span><span class="status-dot">DISPONIBLES PARA COORDINAR</span></div>
+            <div class="contact-row"><small>WHATSAPP / TELÉFONO</small><strong>+591 71970146</strong><a href="https://wa.me/59171970146" target="_blank" rel="noopener">Abrir conversación ↗</a></div>
+            <div class="contact-row"><small>ÁREA DE SERVICIO</small><strong>Bolivia</strong><span>Coordinación según ciudad y disponibilidad.</span></div>
+            <div class="contact-panel-foot"><span>DON FELIPE EVENTS</span><span>CALIDAD · PRESENCIA · SERVICIO</span></div>
+          </div>
+        </div>
+        <div class="section-foot"><span>04 — CONTACTO</span><span>DON FELIPE EVENTS · BOLIVIA</span></div>
+      </section>
+    </main>
+    <footer class="mobile-bar">
+      <button class="mobile-nav active" data-view="inicio"><span>⌂</span>Inicio</button><button class="mobile-nav" data-view="servicios"><span>♧</span>Servicios</button><button class="mobile-nav" data-view="bebidas"><span>◒</span>Bebidas</button><button class="mobile-nav" data-view="cotizar"><span>✧</span>Cotizar</button><button class="mobile-nav" data-view="contacto"><span>☏</span>Contacto</button>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

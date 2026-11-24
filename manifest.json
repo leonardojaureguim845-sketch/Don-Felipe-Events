@@ -1,0 +1,19 @@
+{
+  "name": "Don Felipe Events",
+  "short_name": "Don Felipe",
+  "description": "Servicio profesional de garzones y atención para eventos en Bolivia.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11100e",
+  "theme_color": "#11100e",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "es"
+}

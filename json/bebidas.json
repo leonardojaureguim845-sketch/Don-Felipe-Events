@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Cerveza rubia / Lager",
+    "categoria": "cerveza",
+    "descripcion": "Estilo clásico, ligero y refrescante."
+  },
+  {
+    "nombre": "Cerveza negra / Stout",
+    "categoria": "cerveza",
+    "descripcion": "Perfil tostado y de mayor cuerpo."
+  },
+  {
+    "nombre": "Cerveza artesanal",
+    "categoria": "cerveza",
+    "descripcion": "Variedades según disponibilidad."
+  },
+  {
+    "nombre": "Vino tinto",
+    "categoria": "vino",
+    "descripcion": "Para cenas y celebraciones formales."
+  },
+  {
+    "nombre": "Vino blanco",
+    "categoria": "vino",
+    "descripcion": "Una alternativa fresca y aromática."
+  },
+  {
+    "nombre": "Vino rosado",
+    "categoria": "vino",
+    "descripcion": "Ligero y versátil para recepciones."
+  },
+  {
+    "nombre": "Espumante / Champagne",
+    "categoria": "vino",
+    "descripcion": "Para brindis y momentos especiales."
+  },
+  {
+    "nombre": "Singani",
+    "categoria": "destilado",
+    "descripcion": "Destilado boliviano de uva."
+  },
+  {
+    "nombre": "Ron",
+    "categoria": "destilado",
+    "descripcion": "Opciones claras y añejas."
+  },
+  {
+    "nombre": "Vodka",
+    "categoria": "destilado",
+    "descripcion": "Base para distintos cócteles."
+  },
+  {
+    "nombre": "Whisky",
+    "categoria": "destilado",
+    "descripcion": "Alternativas según presupuesto."
+  },
+  {
+    "nombre": "Gin",
+    "categoria": "destilado",
+    "descripcion": "Ideal para mezclas y coctelería."
+  },
+  {
+    "nombre": "Mojito",
+    "categoria": "coctel",
+    "descripcion": "Ron, hierbabuena, lima y soda."
+  },
+  {
+    "nombre": "Cuba libre",
+    "categoria": "coctel",
+    "descripcion": "Ron, cola y un toque cítrico."
+  },
+  {
+    "nombre": "Gin tonic",
+    "categoria": "coctel",
+    "descripcion": "Gin, tónica y cítricos."
+  },
+  {
+    "nombre": "Piña colada",
+    "categoria": "coctel",
+    "descripcion": "Ron, piña y crema de coco."
+  }
+]
